@@ -1,10 +1,11 @@
-let Content = [
+let Content = {
+  'bali': [
   {
     title: "Food Hunting in Bali – Where to Eat",
     date: "07 October 2018",
     tags: "Bali, Food, Cuisine, Indonesia, travel, explore, asian cuisine",
     isBlogPost: true,
-    imageLink: "https://images.pexels.com/photos/1837619/pexels-photo-1837619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    imageLink: "https://images.pexels.com/photos/11912788/pexels-photo-11912788.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     subText: "How to find authentic local flavours in Bali without burning a hole in your pocket",
     content:
       "Being a place that get a lot of tourists round the year, it’s easy to be in Bali and miss the local flavours – as most crowded spots will have restaurants that specifically target the trendy foreign crowd. Needless to say, the authenticity of what you might get served is often highly questionable, as they are often tampered to suit the western taste buds. " +
@@ -41,9 +42,8 @@ let Content = [
     subText: "Our Favorites from the Indonesian Kitchen",
     isBlogPost: true,
     imageLink:
-          "https://images.pexels.com/photos/1630495/pexels-photo-1630495.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-
-    date: "06 October 2018",
+          "https://images.pexels.com/photos/3660469/pexels-photo-3660469.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          date: "06 October 2018",
     tags: "Bali, Food, Cuisine, Indonesia, travel, explore, asian cuisine",
     content:
       "It’s no big secret that I dream about food half of the time I am awake. So it’s only fitting that I start this series about Bali with my favorites from the Balinese/Indonesian Kitchen. Here is a list of what I think you should never miss to taste when in the island.",
@@ -138,5 +138,92 @@ let Content = [
     imageLink:
       "https://muddyshoeprints.files.wordpress.com/2018/10/lrm_export_33585444044479_20180929_211840688.jpeg?w=1200",
   },
-];
+],
+'hampi': [
+  {
+    title: "The Hampi Express",
+    date: "23 June 2017",
+    tags: "Hampi, Karnataka, Kishkindha, Travel, Tungabhadra",
+    isBlogPost: true,
+    subText: "Sauntering through the magical land of Hampi",
+    imageLink: "https://muddyshoeprints.files.wordpress.com/2017/06/mg_9746.jpg?w=1200",
+    sections: [
+      {
+        heading: "Day 1 : Kishkindha – Of Myths, Monkeys, and Mystics",
+        imgText:
+          "Day 1 : Kishkindha – Of Myths, Monkeys, and Mystics",
+        content:"I woke up earlier than the alarm clock I set last night. There were no nightmares, or probably I had a dream more beautiful, to catch awake than asleep. It can be the eagerness of an excitement of stepping into the no-man’s land where I always dreamt to be at. Next stop, Hosepete – where our adventure begins to unfold.</p>"+
+          "Bags – check. Gadgets – check. Shoes on, we are out of the train. It must be the luggage we carried which gave us away- the moment we set foot on the platform, an auto-rickshaw driver came to us and asked whether we needed a ride to Hampi. The fare he quoted for the 13 km ride was ₹250, which we found reasonable. Off we go, in the tuk-tuk.</p>"+
+          "We had to stop by an ATM vestibule, as only very few places in Hampi accept plastic. The driver asked whether he should drop us near the ferry terminal or the bazaar. The ferry is to cross the river Tungabhadra, to the other side of Hampi. Most of the restaurants and stays are across the river, as most of the Hampi side belongs to the archaeology department of India. We had our room reservations at Gowri Resorts and we had to take the ferry.</p>"+
+          "Which is why when the driver told us there are no ferries there now, we had a mild panic attack. If there is no ferry, we would have to take a longer route which spans about 30 km.</p>"+
+          "Before I could roll my eyes at John on his admirable trip planning skills, the driver speaks again</p>"+
+          "‘The river is almost dry in the summer. You could just cross it by foot.’</p>"+
+          "Well, crossing Tungabhadra by foot is definitely something I could add to my ‘look-what-I-did-in-Hampi’ list.</p>"+
+          "‘Tuk-tuking’ from Hospete to Hampi was mostly through barren lands and a few villages. There were a handful remains of ancient structures – probably temples – on the road. When we finally reached ferry point, the driver made a ‘generous’ offer to take us around as a tour guide for Rs.1500. The offer was too generous to accept, we took his number though.</p>"+
+          "Tungabhadra was mostly dry, naked, showing out her inner rocks with a few strands of streams that remained. A stretch of stone stairs lead us to the river where a lot of pilgrims were around swimming and splashing."
+        },
+      {
+        imageLink:
+          "https://muddyshoeprints.files.wordpress.com/2017/06/mg_9733.jpg?w=1024",
+          imgText:
+          "Thungabhadra river in the evening light",
+          content:
+          "Just as the driver left, another guy who introduced himself as Ramu approached us and asked us whether we need a two wheeler for rent – for the other side of the river. We did. The room we booked was quite far from the river bank and we could use a ride to explore the other side of Hampi.</p>"+
+
+          "As we said yes, Ramu took one of our bags on his shoulders and crossed the river  (or what was left of it) with us. We leaped from rock to rock and in a couple of minutes, we were on the other side.</p>"+
+          
+          "The bike rent for a day was ₹300 and the fuel was charged ₹90 per litre. As there were no fuel stations near, we bought two litres of petrol and started our two wheeled safari.</p>"+
+          
+          "Gowri resort is in a small village called Sanapur about 3 km far away from the river bank. On our way, one side of the horizon was lined by the magnificent boulders. The myths say these boulders were formed as a result of the huge rocks Bali and Sugreeva cast at each other during their legendary fight. Kishkindha, which set the backdrop of countless lores we heard in our childhood, lies infront of our eyes."
+          
+          },
+          {
+            imageLink:
+            "https://muddyshoeprints.files.wordpress.com/2017/06/img_9412.jpg?w=1024",
+              imgText:
+              "The legendary boulders of Hampi",
+              content:
+              "After a 10 minute ride through mostly isolated roads and a couple of quiet bazaars, we reached Gowri resorts. The room we booked was actually a hut built on a rock, thatched with leaves and bed on the floor. But as the monkeys had chewed on the electric wires in that hut, the manager of the resort offered us a bigger hut with a beautiful view to the paddy fields and boulder lined horizons."     
+              },
+              {
+                imageLink:
+                "https://muddyshoeprints.files.wordpress.com/2017/06/img_9312-1.jpg?w=1024",
+                  imgText:
+                  "Gowri resorts in Hampi",
+                  content:
+                  "After a bath and breakfast, we set out to explore Sanapur lake with our bike. The lake was large and there were a few crocodile warning signs. We rode as far as the road took us through the barren lands, spotting a few villagers occassionally."
+                },
+                {
+                  imageLink:
+                  "https://muddyshoeprints.files.wordpress.com/2017/06/img_9350.jpg?w=1024",
+                    imgText:
+                    "Sanapur Lake",
+                    content:
+                    "Though mostly barren, what kept us going was the subtle seductiveness of Sanapur. It almost felt like riding through a desert in search of a treasure chest. Almost.</p>"+
+
+                   "Evening, we went exploring for the unsung ruins in this side of Tungabhadra. The roads took us to Anegundi, a little village which is believed to be older than Hampi.</p>"+
+                    
+                   "Anegundi’s treasures were breath-taking. Gagan Mahal – an ancient palace which was believed to be built and used by Vijayanagara’s rulers around 16th century – was perhaps the jewel in the crown. The structure was in ruins, abandoned even in midst of the busy street. What remained was only a small portion of the palace, and it perhaps only retained the shadows of its ancient beauty. But Gagan mesmerized us nonetheless. The Mahal was all empty and it had developed a certain level of eeriness and haunted aura over the centuries through it was sleeping.</p>"+
+                    
+                   "For exploring this side of Hampi, we didn’t have a map or a guide. We were following all the interesting sign boards, like the one that lead us to Anegundi. The Jain temple was the next and final stop we made in Anegundi. The stone structure resembled a lot like the mandapas of Hampi.</p>"+
+                    
+                   "We knew exactly the next spot we should be as the sun was moving to the farthest of the west. It was the driver who took us to Hampi mentioned about the Anjani hills and it’s magnificent sunset view point.</p>"+
+                    
+                   "The legend hails Anjani Parvat as the birthplace of Lord Hanuman. 575 steep steps later, we found ourselves atop the hill. This hill is home to a small Temple and countless monkeys. Behind the temple is the sunset point. We found a boulder comfortable to sit on and drink in the beauty of the evening.</p>"
+                  },
+                  {
+                    imageLink:
+                    "https://muddyshoeprints.files.wordpress.com/2017/06/mg_9445-1.jpg?w=1024",
+                      imgText:
+                      "Sunset from Anjani Hills",
+                      content:
+                      "The sunset we witnessed was worth every step we had climbed up. The tale on how little Hanuman jumped from here to catch the sun thinking it was a fruit, sounds only believable when you have been here for sunset.</p>"+
+
+                      "We finally stepped down and headed for finding some much needed dinner. The roads were dark except for the ocassional lights of crowded vehicles returning the village labourers to their homes.</p>"+
+                      
+                      "Tired as we were, we knew that the adventure has only just begun. We had an entire ancient Kingdom to explore, just across the river, a good night’s sleep away."
+                     },
+    ],
+  }]
+};
 export default Content;

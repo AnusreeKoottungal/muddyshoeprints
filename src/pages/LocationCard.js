@@ -1,10 +1,17 @@
 import React from "react";
 import { useHistory } from "react-router";
+import postContents from "../content/BlogPostContents";
+
 export default function LocationCard(props) {
   let history = useHistory();
   let content = props.content;
   let navigate = () => {
-    history.push('/blog', {blog: content});
+    console.log('Clicked card!!!');
+    if(content.isBlogPost){
+      history.push('/blog', {blog: content});
+    } else {
+       history.push('/travel', {blog: postContents[content.key], location: content.key});
+    }
   };
   return (
     <div

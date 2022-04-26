@@ -1,8 +1,19 @@
 import React from "react";
-
+import { useHistory } from "react-router";
+import postContents from "../content/BlogPostContents";
 export default function BlogCard(props) {
+  let history = useHistory();
+  let content = props.content;
+  let posts = postContents;
+  let navigate = () => {
+    if(content.isBlogPost){
+      history.push('/blog', {content: content});
+    } else {
+       history.push('/travel', {blog: posts[content.key]});
+    }
+  };
   return (
-    <div className="card shadow m-5">
+    <div className="card shadow m-5" onClick={navigate}>
       <img
         className="card-img-top"
         src={props.content.imageLink}

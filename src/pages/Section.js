@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from 'react-bootstrap/Image'
 import TextContent from '../layout/TextContent';
 function Section(props){
     const imageStyle= {

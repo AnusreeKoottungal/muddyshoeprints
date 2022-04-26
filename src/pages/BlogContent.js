@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "react-bootstrap/Image";
 
 import TextContent from "../layout/TextContent";
 import Section from "./Section";
@@ -8,11 +7,6 @@ import { useLocation } from "react-router-dom";
 export default function BlogContent(props) {
   const location = useLocation();
     const blog = location.state.blog;
-
-    const imageStyle = {
-        height: blog.height ? blog.height : "400px",
-        width: blog.width ? blog.width : "400px",
-      };
     return (
         <React.Fragment>
              <div className="container-fluid" >
@@ -26,8 +20,8 @@ export default function BlogContent(props) {
                   <p style={{ position: "relative", float: "right"}}>
                     {blog.date}
                   </p>
-                  {false && blog.imageLink && (
-                    <Image src={blog.imageLink} alt={blog.title} style={imageStyle} />
+                  {blog.imageLink && (
+                    <img className="img-fluid" src={blog.imageLink} alt={blog.title}  />
                   )}
                   <TextContent text={blog.content} />
                   {blog.sections &&
