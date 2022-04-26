@@ -8,10 +8,12 @@ function Contact() {
   const commentRef = useRef();
   const [formSubmitted, setFormSubmitted] = useState(false);
   let submitComment = (e) => {
+    console.log('Submitting');
     e.preventDefault();
-    // const name = nameRef.current.value;
-    // const email = emailRef.current.value;
-    // const comment = commentRef.current.value;
+     const name = nameRef.current.value;
+     const email = emailRef.current.value;
+     const comment = commentRef.current.value;
+     console.log(comment);
     setFormSubmitted(true);
   }
   return (

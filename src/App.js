@@ -7,7 +7,7 @@ import Contact from "./pages/Contact";
 import NavBar from "./layout/NavBar";
 import Container from "react-bootstrap/Container";
 import BlogPost from "./pages/BlogPost";
-import BlogCard from "./pages/BlogCard";
+import BlogContent from "./pages/BlogContent";
 import Home from "./pages/Home";
 import Locations from "./pages/Locations";
 
@@ -32,6 +32,9 @@ function App() {
             </Route>
             <Route path="/travel" exact>
               <BlogPost />
+            </Route>
+            <Route path="/blog" exact>
+              <BlogContent />
             </Route>
           </Switch>
         </BrowserRouter>

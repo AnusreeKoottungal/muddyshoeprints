@@ -8,7 +8,7 @@ function Section(props){
     }
     return <React.Fragment>
         <h5 className="mt-5" >{props.heading}</h5>
-        {props.imglink &&<React.Fragment> <Image src={props.imglink} alt={props.heading} style={imageStyle} /><br/>
+        {props.imageLink &&<React.Fragment> <img className="img-fluid" src={props.imageLink} alt={props.heading}  /><br/>
         {props.imgText && <i className="text-secondary">{props.imgText}</i>}</React.Fragment>}
         <TextContent text={props.content}/>
     </React.Fragment>

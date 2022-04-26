@@ -4,12 +4,12 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 function NavBar() {
   const cursiveFont = {
-    'font-family': "'Fasthand', cursive",
+    'fontFamily': "'Fasthand', cursive",
     'color': 'black'
   };
   const black = {'color': 'black'};
   const background = {
-    'background-image': "url('https://images.pexels.com/photos/1568607/pexels-photo-1568607.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=400')"
+    'backgroundImage': "url('https://images.pexels.com/photos/1568607/pexels-photo-1568607.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=400')"
   }
   return (
     <react.Fragment>

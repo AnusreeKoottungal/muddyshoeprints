@@ -1,6 +1,6 @@
 import React from "react";
 import Content from "../content/BlogPostContents";
-import BlogContent from "./BlogContent";
+import LocationCard from "./LocationCard";
 
 export default function BlogPost() {
   let content = Content;
@@ -10,12 +10,17 @@ export default function BlogPost() {
   };
   return (
     <React.Fragment>
+      <div className="container text-center">
+          <div className="d-flex flex-row flex-wrap justify-content-center">
       {true &&
         content.map((ct) => {
+  
           return (
-           <BlogContent blog={ct} key={Math.random()}></BlogContent>
+              ct.isBlogPost && <LocationCard content={ct} key={Math.random()} />
           );
         })}
+        </div>
+        </div>
     </React.Fragment>
   );
 }
