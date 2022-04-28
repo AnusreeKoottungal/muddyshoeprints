@@ -3,14 +3,14 @@ import react from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import About from "./pages/About";
-import Contact from "./pages/Contact";
+// import Contact from "./pages/Contact";
 import NavBar from "./layout/NavBar";
 import Container from "react-bootstrap/Container";
 import BlogPost from "./pages/BlogPost";
 import BlogContent from "./pages/BlogContent";
 import Home from "./pages/Home";
 import Locations from "./pages/Locations";
-import NewBlog from "./pages/NewBlog";
+// import NewBlog from "./pages/NewBlog";
 
 function App() {
   return (
@@ -25,9 +25,9 @@ function App() {
             <Route path="/about" exact>
               <About />
             </Route>
-            <Route path="/contact" exact>
+            {/* <Route path="/contact" exact>
               <Contact />
-            </Route>
+            </Route> */}
             <Route path="/locations" exact>
               <Locations />
             </Route>
@@ -37,9 +37,9 @@ function App() {
             <Route path="/blog" exact>
               <BlogContent />
             </Route>
-            <Route path="/new" exact>
+            {/* <Route path="/new" exact>
               <NewBlog />
-            </Route>
+            </Route> */}
           </Switch>
         </BrowserRouter>
       </Container>

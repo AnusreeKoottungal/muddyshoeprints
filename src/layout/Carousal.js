@@ -3,10 +3,6 @@ import food from "../resources/food.jpg";
 import book from "../resources/book.jpg";
 import travel from "../resources/travel.jpg";
 function Carousal() {
-  const carousalImg = {
-    height: "200px !important",
-    width: "100% !important",
-  };
   return (
     <Carousel>
       <Carousel.Item>

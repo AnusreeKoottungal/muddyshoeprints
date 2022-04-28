@@ -32,12 +32,12 @@ function NavBar() {
               <Nav.Link style={white} href="/about">
                 About
               </Nav.Link>
-              <Nav.Link style={white} href="/contact">
+              {/* <Nav.Link style={white} href="/contact">
                 Contact
               </Nav.Link>
               <Nav.Link style={white} href="/new">
                 Create A Post
-              </Nav.Link>
+              </Nav.Link> */}
             </Nav>
           </Navbar.Collapse>
         </Container>

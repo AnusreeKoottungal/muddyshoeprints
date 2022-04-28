@@ -9,7 +9,6 @@ export default function Home() {
     const cursiveFont = {
         fontFamily: "'Square Peg', cursive",
         color: "black",
-        padding: "5px",
         fontSize: "-webkit-xxx-large",
         padding: "10px",
         textAlign: "center",
