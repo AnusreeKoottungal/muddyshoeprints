@@ -10,12 +10,13 @@ import BlogPost from "./pages/BlogPost";
 import BlogContent from "./pages/BlogContent";
 import Home from "./pages/Home";
 import Locations from "./pages/Locations";
+import NewBlog from "./pages/NewBlog";
 
 function App() {
   return (
     <react.Fragment>
       <NavBar></NavBar>
-      <Container className="mt-5 mx-5 text-wrap break-word">
+      <Container className="mt-5 text-wrap break-word">
         <BrowserRouter>
           <Switch>
             <Route path="/" exact>
@@ -35,6 +36,9 @@ function App() {
             </Route>
             <Route path="/blog" exact>
               <BlogContent />
+            </Route>
+            <Route path="/new" exact>
+              <NewBlog />
             </Route>
           </Switch>
         </BrowserRouter>
