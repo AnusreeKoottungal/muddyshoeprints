@@ -24,9 +24,9 @@ code {
     margin: auto;
   }
 }
-@media only screen and (max-width: 400px) {
-  nav-title{
-    font-size: "x-large"
+@media only screen and (max-width: 360px) {
+  .navbar-brand {
+    font-size: x-large !important;
   }
 }
 .carousel-inner {
