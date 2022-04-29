@@ -20,7 +20,7 @@ function NavBar() {
     <react.Fragment>
       <Navbar sticky="top" className="p-0" style={navBarStyles} expand="xl">
         <Container>
-          <Navbar.Brand href="/" style={cursiveFont}>
+          <Navbar.Brand href="/"className="nav-title" style={cursiveFont}>
             Muddy Shoe Prints
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

@@ -13,7 +13,7 @@ code {
 }
 .carousel {
   width: 90vw !important;
-  height: 400px !important;
+  height: 370px !important;
   margin: auto;
 }
 
@@ -24,8 +24,13 @@ code {
     margin: auto;
   }
 }
+@media only screen and (max-width: 400px) {
+  nav-title{
+    font-size: "x-large"
+  }
+}
 .carousel-inner {
-  height: 100% !important;
+  height: 90% !important;
 }
 
 cursive-font {
