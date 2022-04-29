@@ -26,7 +26,7 @@ let Content = [
       "https://muddyshoeprints.files.wordpress.com/2022/04/img_20190927_182644_1.jpg?w=1024",
           altText: "San Francisco",
     title: "California",
-    subText: "The Golden Gate City",
+    subText: "The Golden Gate State",
   },
 ];
 export default Content;
