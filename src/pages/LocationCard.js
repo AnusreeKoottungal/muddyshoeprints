@@ -5,12 +5,6 @@ import postContents from "../content/BlogPostContents";
 export default function LocationCard(props) {
   let history = useHistory();
   let content = props.content;
-  const title = {
-    fontFamily: "'Square Peg', cursive",
-    fontWeight: "bold",
-    fontSize: "xx-large",
-    color: "black"
-  };
   let navigate = () => {
     if (content.isBlogPost) {
       history.push("/blog", { blog: content });
@@ -34,7 +28,7 @@ export default function LocationCard(props) {
         alt={content.altText}
       ></img>
       <div className="card-body" height="200px !important">
-        <h5 className="card-title" style={title}>{content.title}</h5>
+        <h5 className="card-title title">{content.title}</h5>
         <p className="card-text">{content.subText}</p>
       </div>
     </div>

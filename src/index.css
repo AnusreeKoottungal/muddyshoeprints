@@ -39,13 +39,14 @@ code {
   height: 90% !important;
 }
 
-cursive-font {
-  font-family: "'Square Peg', cursive";
-  color: "black";
+.cursive-font {
+  font-family: 'Square Peg', cursive;
+  color: rgb(63, 62, 62);
   padding: 5px;
-  font-size: "-webkit-xxx-large";
+  font-size: -webkit-xxx-large;
   padding: 10px;
   text-align: center;
+  font-weight: bold;
 }
 
 .card {
@@ -59,3 +60,10 @@ cursive-font {
 .card-text {
   color: #706c6c;
 }
+
+.title {
+  font-family: 'Square Peg', cursive;
+  font-weight: bold;
+  font-size: xx-large;
+  color: rgb(63, 62, 62);
+};
