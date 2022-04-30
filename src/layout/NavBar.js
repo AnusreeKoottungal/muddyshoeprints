@@ -3,24 +3,21 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 function NavBar() {
-  const cursiveFont = {
-    fontFamily: "'Open Sans', sans-serif",
-    color: "white",
-    fontSize: "xx-large",
-  };
   const navBarStyles = {
     backgroundColor: "#22b2ae",
-    minHeight: "80px"
-  }
-  const white = { color: "white" ,
-   fontFamily: "'Open Sans', sans-serif",
-   fontSize: "large"};
+    minHeight: "80px",
+  };
+  const white = {
+    color: "white",
+    fontFamily: "'Open Sans', sans-serif",
+    fontSize: "large",
+  };
 
   return (
     <react.Fragment>
       <Navbar sticky="top" className="p-0" style={navBarStyles} expand="xl">
         <Container>
-          <Navbar.Brand href="/"className="nav-title" style={cursiveFont}>
+          <Navbar.Brand href="/" className="nav-title navbar-title-font-white">
             Muddy Shoe Prints
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -42,7 +39,6 @@ function NavBar() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      
     </react.Fragment>
   );
 }
