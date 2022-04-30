@@ -17,14 +17,14 @@ export default function Home() {
         <React.Fragment>
             
             <Carousal></Carousal>
-            {/* <h1 style={cursiveFont} className="cursive-font">---Travel--Food--Books---</h1> 
+            <h1 style={cursiveFont} className="cursive-font">---Travel--Food--Books---</h1> 
             <div className="container text-center">
                 <div className="d-flex flex-row flex-wrap justify-content-center">
             {contents.map((content) => {
                return <LocationCard content={content} key={content.key}/>
             })}
             </div>
-            </div> */}
+            </div>
         </React.Fragment>
     )
 }

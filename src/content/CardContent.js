@@ -4,7 +4,7 @@ let Content = [
 
     imageLink:
       "https://muddyshoeprints.files.wordpress.com/2022/04/img_9623.jpg?w=1024",
-    altText: "Hampi",
+          altText: "Hampi",
     title: "Hampi",
     subText: "The place that made us feel like Indiana Jones.",
   },
@@ -12,7 +12,7 @@ let Content = [
     key: "bali",
     imageLink:
       "https://muddyshoeprints.files.wordpress.com/2022/04/mg_6244.jpg?w=1024",
-    altText: "Bali",
+          altText: "Bali",
     title: "Bali",
     content:
       "From volcanoes to beaches, temples to party places, Bali has it all.",
@@ -24,7 +24,7 @@ let Content = [
 
     imageLink:
       "https://muddyshoeprints.files.wordpress.com/2022/04/img_20190927_182644_1.jpg?w=1024",
-    altText: "San Francisco",
+          altText: "San Francisco",
     title: "California",
     subText: "The Golden Gate State",
   },
