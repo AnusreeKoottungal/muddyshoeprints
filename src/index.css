@@ -23,8 +23,8 @@ code {
     height: 10rem !important;
     margin: auto;
   }
-  cursive-font {
-    font-size: "xx-large";
+  .cursive-font {
+    font-size: xx-large !important;
   }
 }
 @media only screen and (max-width: 360px) {
