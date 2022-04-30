@@ -8,17 +8,27 @@ function Carousal() {
     fontFamily: "'Square Peg', cursive",
     fontWeight: "bold",
     fontSize: "xx-large",
+    textAlign: "center"
   };
   return (
     <Carousel>
       <Carousel.Item>
-        <img className="card-img-top" src={travel} alt="Travel"></img>
+        <div className="m-5 border">
+          <img className="card-img-top" src={travel} alt="Travel"></img>
+          <h5 className="card-title" style={title}>Travel</h5>
+        </div>
       </Carousel.Item>
       <Carousel.Item>
-        <img className="card-img-top" src={food} alt="Food" />
+        <div className="m-5 border">
+          <img className="card-img-top" src={food} alt="Food" />
+          <h5 className="card-title" style={title}>Food</h5>
+        </div>
       </Carousel.Item>
       <Carousel.Item>
-        <img className="card-img-top" src={book} alt="Books" />
+        <div className="m-5 border">
+          <img className="card-img-top" src={book} alt="Books" />
+          <h5 className="card-title" style={title}>Books</h5>
+        </div>
       </Carousel.Item>
     </Carousel>
   );
