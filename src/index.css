@@ -23,6 +23,9 @@ code {
     height: 10rem !important;
     margin: auto;
   }
+  cursive-font {
+    font-size: "xx-large";
+  }
 }
 @media only screen and (max-width: 360px) {
   .navbar-brand {

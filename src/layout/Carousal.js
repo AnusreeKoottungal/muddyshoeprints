@@ -4,11 +4,6 @@ import book from "../resources/book.jpg";
 import travel from "../resources/travel.jpg";
 
 function Carousal() {
-  const title = {
-    fontFamily: "'Square Peg', cursive",
-    fontWeight: "bold",
-    fontSize: "xx-large",
-  };
   return (
     <Carousel>
       <Carousel.Item>
