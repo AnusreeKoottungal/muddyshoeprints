@@ -9,6 +9,7 @@ export default function LocationCard(props) {
     fontFamily: "'Square Peg', cursive",
     fontWeight: "bold",
     fontSize: "xx-large",
+    color: "black"
   };
   let navigate = () => {
     if (content.isBlogPost) {
